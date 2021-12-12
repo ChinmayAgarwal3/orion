@@ -1,0 +1,4 @@
+#Sun Dec 12 14:40:31 IST 2021
+base.0=/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_orion"
+4    android:versionCode="5"
+5    android:versionName="1.0.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+15-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:3:5-76
+15-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:3:22-74
+16
+17    <queries>
+17-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:4:5-25:11
+18
+19        <!-- If your app opens https URLs -->
+20        <intent>
+20-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:6:3-9:12
+21            <action android:name="android.intent.action.VIEW" />
+21-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:7:5-57
+21-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:7:13-54
+22
+23            <data android:scheme="https" />
+23-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:8:5-36
+23-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:8:11-33
+24        </intent>
+25        <!-- If your app makes calls -->
+26        <intent>
+26-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:11:3-14:12
+27            <action android:name="android.intent.action.DIAL" />
+27-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:12:5-57
+27-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:12:13-54
+28
+29            <data android:scheme="tel" />
+29-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:8:5-36
+29-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:8:11-33
+30        </intent>
+31        <!-- If your sends SMS messages -->
+32        <intent>
+32-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:16:3-19:12
+33            <action android:name="android.intent.action.SENDTO" />
+33-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:17:5-59
+33-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:17:13-56
+34
+35            <data android:scheme="smsto" />
+35-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:8:5-36
+35-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:8:11-33
+36        </intent>
+37        <!-- If your app sends emails -->
+38        <intent>
+38-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:21:3-24:12
+39            <action android:name="android.intent.action.SEND" />
+39-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:22:5-57
+39-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:22:13-54
+40
+41            <data android:mimeType="*/*" />
+41-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:8:5-36
+42        </intent>
+43    </queries> <!-- Include required permissions for Google Maps API to run. -->
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->[com.google.android.gms:play-services-maps:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/c5de8972dacd649c27c247c9e16de3ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+44-->[com.google.android.gms:play-services-maps:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/c5de8972dacd649c27c247c9e16de3ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+45
+46    <uses-feature
+46-->[com.google.android.gms:play-services-maps:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/c5de8972dacd649c27c247c9e16de3ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+47        android:glEsVersion="0x00020000"
+47-->[com.google.android.gms:play-services-maps:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/c5de8972dacd649c27c247c9e16de3ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+48        android:required="true" />
+48-->[com.google.android.gms:play-services-maps:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/c5de8972dacd649c27c247c9e16de3ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+49
+50    <application
+50-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:26:4-63:19
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.3.1] /home/rich/.gradle/caches/transforms-2/files-2.1/9d2ac2ae8a44d697ec01e22fb5b300b2/core-1.3.1/AndroidManifest.xml:24:18-86
+52        android:debuggable="true"
+53        android:icon="@mipmap/launcher_icon"
+53-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:28:9-45
+54        android:label="Orion" >
+54-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:27:9-30
+55        <activity
+55-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:29:9-57:20
+56            android:name="com.example.flutter_orion.MainActivity"
+56-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:30:13-41
+57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:33:13-163
+58            android:hardwareAccelerated="true"
+58-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:34:13-47
+59            android:launchMode="singleTop"
+59-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:31:13-43
+60            android:theme="@style/LaunchTheme"
+60-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:32:13-47
+61            android:windowSoftInputMode="adjustResize" >
+61-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:35:13-55
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+69-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:40:13-43:17
+70                android:name="io.flutter.embedding.android.NormalTheme"
+70-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:41:15-70
+71                android:resource="@style/NormalTheme" />
+71-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:42:15-52
+72            <!--
+73                 Displays an Android View that continues showing the launch screen
+74                 Drawable until Flutter paints its first frame, then this splash
+75                 screen fades out. A splash screen is useful to avoid any visual
+76                 gap between the end of Android's launch screen and the painting of
+77                 Flutter's first frame.
+78            -->
+79            <meta-data
+79-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:49:13-52:17
+80                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+80-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:50:15-79
+81                android:resource="@drawable/launch_background" />
+81-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:51:15-61
+82
+83            <intent-filter>
+83-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:53:13-56:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:54:17-68
+84-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:54:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:55:17-76
+86-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:55:27-74
+87            </intent-filter>
+88        </activity>
+89        <!--
+90             Don't delete the meta-data below.
+91             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+92        -->
+93        <meta-data
+93-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:60:9-62:33
+94            android:name="flutterEmbedding"
+94-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:61:13-44
+95            android:value="2" />
+95-->/home/rich/Documents/projects/MINOR PROJECT/flutter_orion/android/app/src/main/AndroidManifest.xml:62:13-30
+96
+97        <activity
+97-->[:url_launcher] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+98            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+98-->[:url_launcher] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+99            android:exported="false"
+99-->[:url_launcher] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+100            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+100-->[:url_launcher] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+101
+102        <provider
+102-->[:share] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+103            android:name="io.flutter.plugins.share.ShareFileProvider"
+103-->[:share] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-70
+104            android:authorities="com.example.flutter_orion.flutter.share_provider"
+104-->[:share] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+105            android:exported="false"
+105-->[:share] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+106            android:grantUriPermissions="true" >
+106-->[:share] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+107            <meta-data
+107-->[:share] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:68
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:share] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+109                android:resource="@xml/flutter_share_file_paths" />
+109-->[:share] /home/rich/Documents/projects/MINOR PROJECT/flutter_orion/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-65
+110        </provider> <!-- Needs to be explicitly declared on P+ -->
+111        <uses-library
+111-->[com.google.android.gms:play-services-maps:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/c5de8972dacd649c27c247c9e16de3ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+112            android:name="org.apache.http.legacy"
+112-->[com.google.android.gms:play-services-maps:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/c5de8972dacd649c27c247c9e16de3ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+113            android:required="false" />
+113-->[com.google.android.gms:play-services-maps:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/c5de8972dacd649c27c247c9e16de3ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+114
+115        <activity
+115-->[com.google.android.gms:play-services-base:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+116-->[com.google.android.gms:play-services-base:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-base:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.android.gms:play-services-base:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/3c8e7eb3d21ac94d08f658f6d8a1c9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/3c8e7eb3d21ac94d08f658f6d8a1c9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:17.0.0] /home/rich/.gradle/caches/transforms-2/files-2.1/3c8e7eb3d21ac94d08f658f6d8a1c9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+123    </application>
+124
+125</manifest>
