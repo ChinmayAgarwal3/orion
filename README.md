@@ -1,16 +1,14 @@
-# flutter_orion
+---
+description: >-
+  This app is made for my annual uni fest named Orion. It is helpful for all
+  guests and participants to manage their registrations and get information on
+  various events happening across the campus.
+---
 
-A new Flutter project.
+# Orion App
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+#### Screenshots
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](.gitbook/assets/umang.jpeg)![](.gitbook/assets/team.jpeg)![](<.gitbook/assets/takshak (1).jpeg>)![](.gitbook/assets/sponsor.jpeg)![](<.gitbook/assets/home (1).jpeg>)![](<.gitbook/assets/faq (1).jpeg>)![](.gitbook/assets/events.jpeg)![](<.gitbook/assets/event (1).jpeg>)![](<.gitbook/assets/cultural event2 (1).jpeg>)![](<.gitbook/assets/cultural event.jpeg>)
