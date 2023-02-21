@@ -7,18 +7,8 @@ description: >-
 
 # Orion App
 
-
-
 #### Screenshots
-<img src=.gitbook/assets/umang.jpeg width="200" />
-<img src=.gitbook/assets/team.jpeg width="200" />
-<img src=.gitbook/assets/takshak.jpeg width="200" />
-<img src=.gitbook/assets/sponsor.jpeg width="200" />
-<img src=.gitbook/assets/home (1).jpeg width="200" />
-<img src=.gitbook/assets/faq (1).jpeg width="200" />
-<img src=.gitbook/assets/events.jpeg width="200" />
-<img src=.gitbook/assets/event (1).jpeg width="200" />
-<img src=.gitbook/assets/cultural event2 (1).jpeg width="200" />
-<img src=.gitbook/assets/cultural event.jpeg width="200" />
 
+<figure><img src="screenshots/home.jpeg" alt=""><figcaption></figcaption></figure>
 
+![](.gitbook/assets/umang.jpeg) ![](.gitbook/assets/takshak.jpeg)  <img src=".gitbook/assets/events.jpeg" alt="" data-size="original"> ![](screenshots/event.jpeg)![](<screenshots/cultural event (1).jpeg>)![](<screenshots/cultural event2.jpeg>)![](.gitbook/assets/team.jpeg)![](.gitbook/assets/sponsor.jpeg)
