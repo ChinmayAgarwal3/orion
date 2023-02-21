@@ -10,5 +10,15 @@ description: >-
 
 
 #### Screenshots
+<img src=.gitbook/assets/umang.jpeg width="200" />
+<img src=.gitbook/assets/team.jpeg width="200" />
+<img src=.gitbook/assets/takshak.jpeg width="200" />
+<img src=.gitbook/assets/sponsor.jpeg width="200" />
+<img src=.gitbook/assets/home (1).jpeg width="200" />
+<img src=.gitbook/assets/faq (1).jpeg width="200" />
+<img src=.gitbook/assets/events.jpeg width="200" />
+<img src=.gitbook/assets/event (1).jpeg width="200" />
+<img src=.gitbook/assets/cultural event2 (1).jpeg width="200" />
+<img src=.gitbook/assets/cultural event.jpeg width="200" />
 
-![](.gitbook/assets/umang.jpeg)![](.gitbook/assets/team.jpeg)![](<.gitbook/assets/takshak (1).jpeg>)![](.gitbook/assets/sponsor.jpeg)![](<.gitbook/assets/home (1).jpeg>)![](<.gitbook/assets/faq (1).jpeg>)![](.gitbook/assets/events.jpeg)![](<.gitbook/assets/event (1).jpeg>)![](<.gitbook/assets/cultural event2 (1).jpeg>)![](<.gitbook/assets/cultural event.jpeg>)
+
